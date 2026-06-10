@@ -1,0 +1,8 @@
+{
+  "name": "Real Life XP Game",
+  "short_name": "XP Game",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#ff6600"
+}

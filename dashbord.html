@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+     <nav>
+        <a href="index.html">Home</a>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="tasks.html">Tasks</a>
+        <a href="profile.html">Profile</a>
+        <a href="login.html">Login</a>
+        <a href="signup.html">Sign Up</a>
+    </nav>
+
+    <hr>
+    <h1>dashbord</h1>
+    <h2>🏆 Level: <span id="level">1</span></h2>
+
+    <h2>⭐ XP: <span id="xp">100</span></h2>
+    <progress id="xpBar"value="0" max="100"></progress>
+    <h2>Coins: <span id="coins">0</span></h2>
+    <h2>Streak: <span id="Streak">0</span>
+    <h2>Achievements</h2>   
+    <p id="Achievements">no Achievements yet</p> 
+    <button onclick="addXP()">Complete Task (+20 XP)</button>
+
+    <button onclick="resetGame()">resetprogress</button>
+
+    <button onclick="darkMode()">darkMode</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
