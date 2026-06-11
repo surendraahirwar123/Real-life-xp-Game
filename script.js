@@ -19,8 +19,8 @@ function addXP() {
             "🏆 Level 5 Hero";
     }
 
-    if (level >= 10){
-        document.getElementById("achievement").innerHTML="xp Master";
+    if (level >= 10) {
+        document.getElementById("achievement").innerHTML = "xp Master";
     }
 
     localStorage.setItem("xp", xp);
@@ -62,3 +62,9 @@ function resetGame() {
 function darkMode() {
     document.body.classList.toggle("dark");
 }
+
+document.getElementById("xp").innerHTML = xp;
+document.getElementById("level").innerHTML = level;
+document.getElementById("coins").innerHTML = coins;
+document.getElementById("streak").innerHTML = streak;
+document.getElementById("xpBar").innerHTML = xpBar;
